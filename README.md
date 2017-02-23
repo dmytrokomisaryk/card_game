@@ -12,7 +12,7 @@ bundle install
 ```
 
 #### prepare DB
-install PostgresSql
+install PostgreSQL
 
 ```sh
 rake db:create
