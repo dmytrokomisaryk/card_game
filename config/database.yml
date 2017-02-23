@@ -1,0 +1,13 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  pool: 25
+
+development:
+  <<: *default
+  database: dev_cards_game
+
+test:
+  <<: *default
+  database: test_cards_game
