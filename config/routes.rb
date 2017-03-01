@@ -5,6 +5,9 @@ Rails.application.routes.draw do
       resource :user, only: [:create] do
         post :login
       end
+      resource :card, only: [] do
+        get :one_more
+      end
     end
   end
 end

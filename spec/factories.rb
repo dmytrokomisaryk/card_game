@@ -5,4 +5,9 @@ FactoryGirl.define do
     password '12345678'
     role     User.roles[:player]
   end
+
+  factory :card do
+    kind  :j
+    value :diamond
+  end
 end
